@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
+    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,6 +18,12 @@
     <title>StackOverflow Clone</title>
   </head>
   <body>
+    <script src="https://github.com/Cognigy/WebchatWidget/releases/latest/download/webchat.js"></script>
+    <script>
+      initWebchat(
+        "https://endpoint-trial.cognigy.ai/b041dcbcea1f21d3bf1f5e75caa3bca19d6966d35f5b6101785db68ced554bf4"
+      );
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
